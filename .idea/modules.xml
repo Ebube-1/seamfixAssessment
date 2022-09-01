@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/FraudWarningAlgo/FraudWarningAlgo.iml" filepath="$PROJECT_DIR$/FraudWarningAlgo/FraudWarningAlgo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SeamfixAssessment.iml" filepath="$PROJECT_DIR$/.idea/SeamfixAssessment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bvn-validation-service/bvn-validation-service/bvn-validation-service.iml" filepath="$PROJECT_DIR$/bvn-validation-service/bvn-validation-service/bvn-validation-service.iml" />
     </modules>
   </component>
 </project>
