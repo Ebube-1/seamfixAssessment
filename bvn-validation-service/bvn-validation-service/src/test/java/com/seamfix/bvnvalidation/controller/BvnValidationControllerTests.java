@@ -25,10 +25,6 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-/**
- * @author tchineke
- * @since 01 September 2022
- */
 @SpringBootTest
 @AutoConfigureMockMvc
 public class BvnValidationControllerTests {

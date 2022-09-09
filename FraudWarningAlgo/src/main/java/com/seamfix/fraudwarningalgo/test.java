@@ -39,6 +39,7 @@ public class test {
                 throw new RuntimeException("Number of days does not match supplied days information");
             }
 
+            //9 5
             //2 3 4 2 3 6 8 4 5
             int noOfNotifications = 0;
             for (int currentDay = daysRequiredForNotifying + 1; currentDay <= noOfTransactionsDays; currentDay++) {

@@ -19,6 +19,7 @@ public class GenericControllerAdvice {
     public BvnValidationResponse handleConstraintViolationErrors(BindException ex) {
         log.error(ex.getMessage(), ex);
         BvnValidationResponse response = new BvnValidationResponse();
+
         FieldError fieldError = ex.getFieldErrors().get(0);
         response.setMessage(fieldError.getDefaultMessage());
         response.setCode(ResponseCode.BAD_REQUEST);
